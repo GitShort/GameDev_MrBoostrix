@@ -941,7 +941,7 @@ RectTransform:
   - {fileID: 5646416315207201539}
   - {fileID: 819974539}
   m_Father: {fileID: 5646416317011723091}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1158,7 +1158,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5646416317011723091}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5646416315576481947
 MonoBehaviour:
@@ -1804,7 +1804,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5646416317011723091}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &5646416316736293351
 AudioSource:
@@ -1931,9 +1931,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5646416315364676537}
   - {fileID: 5646416315576481949}
   - {fileID: 5646416316736293352}
+  - {fileID: 5646416315364676537}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1949,13 +1949,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca64b1c04fabfe4680d06e77f9497c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableCountdown: 1
+  enableCountdown: 0
   countdown: 3
   countdownEndMessage: GO!
   countdownSound: {fileID: 8300000, guid: addd2f5deb1a12842bad574ec7a87076, type: 3}
   countdownEndSound: {fileID: 8300000, guid: 282a105d64767f242a222c1e741d3281, type: 3}
   increaseTimer: 0
-  timeCount: 30
+  timeCount: 10
   timeCountMessage: ELAPSED TIME
   gameOverMessage: GAME OVER!
   endGameMessage: You have found
